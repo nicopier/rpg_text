@@ -1,0 +1,119 @@
+{
+  "goblin_1": {
+    "id": "goblin_1",
+    "race": "goblin",
+    "kind": "npc",
+    "stats": {
+      "level": 1,
+      "fuerza": 2,
+      "destreza": 3,
+      "inteligencia": 1,
+      "puntos_vida": 0,
+      "estres": 0
+    },
+    "equipped": {
+      "casco": null,
+      "pecho": {
+        "id": "armadura_trapos",
+        "name": "Armadura de trapos",
+        "slot": "pecho",
+        "kind": "armor",
+        "weight": 1.0,
+        "quality": 0,
+        "description": "Retazos de cuero y tela mal cosidos.",
+        "stat_modifiers": {
+          "fuerza": 0,
+          "destreza": 0,
+          "inteligencia": 0,
+          "puntos_vida": 1,
+          "estres": 0
+        },
+        "tags": ["armor"],
+        "stackable": false,
+        "ac_bonus": 1
+      },
+      "botas": null,
+      "arma_derecha": {
+        "id": "daga_oxidada",
+        "name": "Daga oxidada",
+        "slot": "arma_derecha",
+        "kind": "weapon",
+        "weight": 0.8,
+        "quality": 0,
+        "description": "Una daga corta y mal mantenida.",
+        "stat_modifiers": {
+          "fuerza": 0,
+          "destreza": 0,
+          "inteligencia": 0,
+          "puntos_vida": 0,
+          "estres": 0
+        },
+        "tags": ["weapon", "melee", "finesse"],
+        "stackable": false,
+        "base_damage": 2
+      },
+      "arma_izquierda": null,
+      "anillo_derecho": null,
+      "anillo_izquierdo": null
+    }
+  },
+  "kobold_1": {
+    "id": "kobold_1",
+    "race": "kobold",
+    "kind": "npc",
+    "stats": {
+      "level": 1,
+      "fuerza": 1,
+      "destreza": 2,
+      "inteligencia": 2,
+      "puntos_vida": 0,
+      "estres": 0
+    },
+    "equipped": {
+      "casco": null,
+      "pecho": {
+        "id": "chaleco_cuero_fino",
+        "name": "Chaleco de cuero fino",
+        "slot": "pecho",
+        "kind": "armor",
+        "weight": 1.2,
+        "quality": 1,
+        "description": "Cuero flexible, bien trabajado.",
+        "stat_modifiers": {
+          "fuerza": 0,
+          "destreza": 1,
+          "inteligencia": 0,
+          "puntos_vida": 0,
+          "estres": 0
+        },
+        "tags": ["armor", "light"],
+        "stackable": false,
+        "ac_bonus": 1
+      },
+      "botas": null,
+      "arma_derecha": {
+        "id": "lanza_kobold",
+        "name": "Lanza kobold",
+        "slot": "arma_derecha",
+        "kind": "weapon",
+        "weight": 2.5,
+        "quality": 1,
+        "description": "Lanza larga con punta reforzada.",
+        "stat_modifiers": {
+          "fuerza": 0,
+          "destreza": 0,
+          "inteligencia": 0,
+          "puntos_vida": 0,
+          "estres": 0
+        },
+        "tags": ["weapon", "melee", "reach"],
+        "stackable": false,
+        "base_damage": 3,
+        "reach_bonus": 1
+      },
+      "arma_izquierda": null,
+      "anillo_derecho": null,
+      "anillo_izquierdo": null
+    }
+  }
+}

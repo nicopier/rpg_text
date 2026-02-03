@@ -1,0 +1,27 @@
+from __future__ import annotations
+
+import os
+from pathlib import Path
+
+def load_env_file(env_path: Path) -> None:
+    """Minimal .env loader: KEY=VALUE, ignores comments/blank lines."""
+    if not env_path.exists():
+        return
+    for raw_line in env_path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+        os.environ.setdefault(key, value)
+
+def get_characters_root(project_root: Path) -> Path:
+    load_env_file(project_root / ".env")
+    base = os.getenv("CHARACTERS_DIR", "./characters").strip()
+    base_path = Path(base)
+    if base_path.is_absolute():
+        return base_path.resolve()
+    return (project_root / base_path).resolve()

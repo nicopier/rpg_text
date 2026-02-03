@@ -1,0 +1,590 @@
+{
+  "schema_version": "2.0",
+  "items": [
+    {
+      "id": "capucha_de_tela",
+      "name": "Capucha de tela",
+      "slot": "casco",
+      "kind": "armor",
+      "weight": 0.5,
+      "quality": 0,
+      "description": "Una capucha simple de tela gastada.",
+      "stat_modifiers": {
+        "fuerza": 0,
+        "destreza": 1,
+        "inteligencia": 0,
+        "puntos_vida": 0,
+        "estres": 0
+      },
+      "tags": [
+        "armor"
+      ],
+      "stackable": false,
+      "ac_bonus": 1
+    },
+    {
+      "id": "casco_de_cuero",
+      "name": "Casco de cuero",
+      "slot": "casco",
+      "kind": "armor",
+      "weight": 1.2,
+      "quality": 1,
+      "description": "Casco ligero de cuero endurecido.",
+      "stat_modifiers": {
+        "fuerza": 0,
+        "destreza": 1,
+        "inteligencia": 0,
+        "puntos_vida": 1,
+        "estres": 0
+      },
+      "tags": [
+        "armor"
+      ],
+      "stackable": false,
+      "ac_bonus": 2
+    },
+    {
+      "id": "yelmo_de_hierro",
+      "name": "Yelmo de hierro",
+      "slot": "casco",
+      "kind": "armor",
+      "weight": 2.5,
+      "quality": 2,
+      "description": "Un yelmo pesado y resistente.",
+      "stat_modifiers": {
+        "fuerza": 1,
+        "destreza": 0,
+        "inteligencia": 0,
+        "puntos_vida": 2,
+        "estres": 0
+      },
+      "tags": [
+        "armor"
+      ],
+      "stackable": false,
+      "ac_bonus": 3
+    },
+    {
+      "id": "casco_reforzado",
+      "name": "Casco reforzado",
+      "slot": "casco",
+      "kind": "armor",
+      "weight": 2.8,
+      "quality": 3,
+      "description": "Hierro reforzado con remaches.",
+      "stat_modifiers": {
+        "fuerza": 1,
+        "destreza": -1,
+        "inteligencia": 0,
+        "puntos_vida": 3,
+        "estres": 0
+      },
+      "tags": [
+        "armor"
+      ],
+      "stackable": false,
+      "ac_bonus": 4
+    },
+    {
+      "id": "yelmo_del_veterano",
+      "name": "Yelmo del veterano",
+      "slot": "casco",
+      "kind": "armor",
+      "weight": 3.0,
+      "quality": 4,
+      "description": "Marcas de batalla cubren este yelmo.",
+      "stat_modifiers": {
+        "fuerza": 2,
+        "destreza": -1,
+        "inteligencia": 0,
+        "puntos_vida": 4,
+        "estres": -1
+      },
+      "tags": [
+        "armor"
+      ],
+      "stackable": false,
+      "ac_bonus": 5
+    },
+    {
+      "id": "daga_oxidada",
+      "name": "Daga oxidada",
+      "slot": "arma_derecha",
+      "kind": "weapon",
+      "weight": 0.8,
+      "quality": 0,
+      "description": "Una daga liviana y poco fiable.",
+      "stat_modifiers": {
+        "fuerza": 0,
+        "destreza": 1,
+        "inteligencia": 0,
+        "puntos_vida": 0,
+        "estres": 0
+      },
+      "tags": [
+        "melee",
+        "piercing",
+        "weapon"
+      ],
+      "stackable": false,
+      "damage_dice": "1d4",
+      "damage_type": "piercing",
+      "range": 1,
+      "hands": 1,
+      "attack_stat": "destreza"
+    },
+    {
+      "id": "espada_corta",
+      "name": "Espada corta",
+      "slot": "arma_derecha",
+      "kind": "weapon",
+      "weight": 2.0,
+      "quality": 1,
+      "description": "Espada común de una mano.",
+      "stat_modifiers": {
+        "fuerza": 1,
+        "destreza": 0,
+        "inteligencia": 0,
+        "puntos_vida": 0,
+        "estres": 0
+      },
+      "tags": [
+        "melee",
+        "slashing",
+        "weapon"
+      ],
+      "stackable": false,
+      "damage_dice": "1d6",
+      "damage_type": "slashing",
+      "range": 1,
+      "hands": 1,
+      "attack_stat": "fuerza"
+    },
+    {
+      "id": "hacha_de_guerra",
+      "name": "Hacha de guerra",
+      "slot": "arma_derecha",
+      "kind": "weapon",
+      "weight": 3.5,
+      "quality": 2,
+      "description": "Pesada pero devastadora.",
+      "stat_modifiers": {
+        "fuerza": 2,
+        "destreza": -1,
+        "inteligencia": 0,
+        "puntos_vida": 0,
+        "estres": 1
+      },
+      "tags": [
+        "melee",
+        "slashing",
+        "weapon"
+      ],
+      "stackable": false,
+      "damage_dice": "1d8",
+      "damage_type": "slashing",
+      "range": 1,
+      "hands": 1,
+      "attack_stat": "fuerza"
+    },
+    {
+      "id": "espada_templada",
+      "name": "Espada templada",
+      "slot": "arma_derecha",
+      "kind": "weapon",
+      "weight": 3.0,
+      "quality": 3,
+      "description": "Acero de buena calidad.",
+      "stat_modifiers": {
+        "fuerza": 2,
+        "destreza": 1,
+        "inteligencia": 0,
+        "puntos_vida": 0,
+        "estres": 0
+      },
+      "tags": [
+        "melee",
+        "slashing",
+        "weapon"
+      ],
+      "stackable": false,
+      "damage_dice": "1d8",
+      "damage_type": "slashing",
+      "range": 1,
+      "hands": 1,
+      "attack_stat": "fuerza"
+    },
+    {
+      "id": "hoja_del_duelista",
+      "name": "Hoja del duelista",
+      "slot": "arma_derecha",
+      "kind": "weapon",
+      "weight": 2.5,
+      "quality": 4,
+      "description": "Ligera y letal.",
+      "stat_modifiers": {
+        "fuerza": 1,
+        "destreza": 3,
+        "inteligencia": 0,
+        "puntos_vida": 0,
+        "estres": -1
+      },
+      "tags": [
+        "melee",
+        "slashing",
+        "weapon"
+      ],
+      "stackable": false,
+      "damage_dice": "1d10",
+      "damage_type": "slashing",
+      "range": 1,
+      "hands": 1,
+      "attack_stat": "destreza"
+    },
+    {
+      "id": "anillo_opaco",
+      "name": "Anillo opaco",
+      "slot": "anillo_derecho",
+      "kind": "accessory",
+      "weight": 0.1,
+      "quality": 0,
+      "description": "Un anillo sin brillo.",
+      "stat_modifiers": {
+        "fuerza": 0,
+        "destreza": 0,
+        "inteligencia": 1,
+        "puntos_vida": 0,
+        "estres": 0
+      },
+      "tags": [
+        "accessory",
+        "ring"
+      ],
+      "stackable": false
+    },
+    {
+      "id": "anillo_del_aprendiz",
+      "name": "Anillo del aprendiz",
+      "slot": "anillo_derecho",
+      "kind": "accessory",
+      "weight": 0.1,
+      "quality": 1,
+      "description": "Favorece la concentración.",
+      "stat_modifiers": {
+        "fuerza": 0,
+        "destreza": 0,
+        "inteligencia": 2,
+        "puntos_vida": 0,
+        "estres": 0
+      },
+      "tags": [
+        "accessory",
+        "ring"
+      ],
+      "stackable": false
+    },
+    {
+      "id": "anillo_del_sabio",
+      "name": "Anillo del sabio",
+      "slot": "anillo_derecho",
+      "kind": "accessory",
+      "weight": 0.1,
+      "quality": 2,
+      "description": "Potencia la mente.",
+      "stat_modifiers": {
+        "fuerza": 0,
+        "destreza": 0,
+        "inteligencia": 3,
+        "puntos_vida": 0,
+        "estres": -1
+      },
+      "tags": [
+        "accessory",
+        "ring"
+      ],
+      "stackable": false
+    },
+    {
+      "id": "anillo_arcano",
+      "name": "Anillo arcano",
+      "slot": "anillo_derecho",
+      "kind": "accessory",
+      "weight": 0.1,
+      "quality": 3,
+      "description": "Grabado con runas.",
+      "stat_modifiers": {
+        "fuerza": 0,
+        "destreza": 0,
+        "inteligencia": 4,
+        "puntos_vida": 0,
+        "estres": -2
+      },
+      "tags": [
+        "accessory",
+        "ring"
+      ],
+      "stackable": false
+    },
+    {
+      "id": "anillo_del_archimago",
+      "name": "Anillo del archimago",
+      "slot": "anillo_derecho",
+      "kind": "accessory",
+      "weight": 0.1,
+      "quality": 4,
+      "description": "Canaliza poder puro.",
+      "stat_modifiers": {
+        "fuerza": 0,
+        "destreza": 0,
+        "inteligencia": 6,
+        "puntos_vida": 0,
+        "estres": -3
+      },
+      "tags": [
+        "accessory",
+        "ring"
+      ],
+      "stackable": false
+    },
+    {
+      "id": "escudo_de_madera",
+      "name": "Escudo de madera",
+      "slot": "arma_izquierda",
+      "kind": "shield",
+      "weight": 2.0,
+      "quality": 0,
+      "description": "Un escudo tosco hecho de tablas reforzadas.",
+      "stat_modifiers": {
+        "fuerza": 0,
+        "destreza": 0,
+        "inteligencia": 0,
+        "puntos_vida": 2,
+        "estres": 0
+      },
+      "tags": [
+        "shield"
+      ],
+      "stackable": false,
+      "ac_bonus": 2
+    },
+    {
+      "id": "escudo_de_cuero",
+      "name": "Escudo de cuero",
+      "slot": "arma_izquierda",
+      "kind": "shield",
+      "weight": 2.5,
+      "quality": 1,
+      "description": "Cuero endurecido sobre un armazón ligero.",
+      "stat_modifiers": {
+        "fuerza": 0,
+        "destreza": 0,
+        "inteligencia": 0,
+        "puntos_vida": 3,
+        "estres": 0
+      },
+      "tags": [
+        "shield"
+      ],
+      "stackable": false,
+      "ac_bonus": 3
+    },
+    {
+      "id": "escudo_reforzado",
+      "name": "Escudo reforzado",
+      "slot": "arma_izquierda",
+      "kind": "shield",
+      "weight": 3.5,
+      "quality": 2,
+      "description": "Placas metálicas clavadas sobre madera gruesa.",
+      "stat_modifiers": {
+        "fuerza": 1,
+        "destreza": -1,
+        "inteligencia": 0,
+        "puntos_vida": 5,
+        "estres": 0
+      },
+      "tags": [
+        "shield"
+      ],
+      "stackable": false,
+      "ac_bonus": 4
+    },
+    {
+      "id": "escudo_de_hierro",
+      "name": "Escudo de hierro",
+      "slot": "arma_izquierda",
+      "kind": "shield",
+      "weight": 4.5,
+      "quality": 3,
+      "description": "Escudo pesado capaz de detener golpes letales.",
+      "stat_modifiers": {
+        "fuerza": 1,
+        "destreza": -2,
+        "inteligencia": 0,
+        "puntos_vida": 7,
+        "estres": 1
+      },
+      "tags": [
+        "shield"
+      ],
+      "stackable": false,
+      "ac_bonus": 5
+    },
+    {
+      "id": "escudo_del_bastion",
+      "name": "Escudo del bastión",
+      "slot": "arma_izquierda",
+      "kind": "shield",
+      "weight": 5.5,
+      "quality": 4,
+      "description": "Un escudo legendario usado para resistir asedios.",
+      "stat_modifiers": {
+        "fuerza": 2,
+        "destreza": -2,
+        "inteligencia": 0,
+        "puntos_vida": 10,
+        "estres": -1
+      },
+      "tags": [
+        "shield"
+      ],
+      "stackable": false,
+      "ac_bonus": 6
+    },
+    {
+      "id": "daga_secundaria",
+      "name": "Daga secundaria",
+      "slot": "arma_izquierda",
+      "kind": "weapon",
+      "weight": 0.7,
+      "quality": 0,
+      "description": "Una daga ligera para atacar con la mano no dominante.",
+      "stat_modifiers": {
+        "fuerza": 0,
+        "destreza": 1,
+        "inteligencia": 0,
+        "puntos_vida": 0,
+        "estres": 0
+      },
+      "tags": [
+        "melee",
+        "piercing",
+        "weapon"
+      ],
+      "stackable": false,
+      "damage_dice": "1d3",
+      "damage_type": "piercing",
+      "range": 1,
+      "hands": 1,
+      "attack_stat": "destreza"
+    },
+    {
+      "id": "cuchilla_curva",
+      "name": "Cuchilla curva",
+      "slot": "arma_izquierda",
+      "kind": "weapon",
+      "weight": 0.9,
+      "quality": 1,
+      "description": "Diseñada para golpes rápidos y precisos.",
+      "stat_modifiers": {
+        "fuerza": 0,
+        "destreza": 2,
+        "inteligencia": 0,
+        "puntos_vida": 0,
+        "estres": 0
+      },
+      "tags": [
+        "melee",
+        "piercing",
+        "weapon"
+      ],
+      "stackable": false,
+      "damage_dice": "1d4",
+      "damage_type": "piercing",
+      "range": 1,
+      "hands": 1,
+      "attack_stat": "destreza"
+    },
+    {
+      "id": "daga_equilibrada",
+      "name": "Daga equilibrada",
+      "slot": "arma_izquierda",
+      "kind": "weapon",
+      "weight": 1.1,
+      "quality": 2,
+      "description": "Balance perfecto entre velocidad y control.",
+      "stat_modifiers": {
+        "fuerza": 1,
+        "destreza": 2,
+        "inteligencia": 0,
+        "puntos_vida": 0,
+        "estres": 0
+      },
+      "tags": [
+        "melee",
+        "piercing",
+        "weapon"
+      ],
+      "stackable": false,
+      "damage_dice": "1d4",
+      "damage_type": "piercing",
+      "range": 1,
+      "hands": 1,
+      "attack_stat": "destreza"
+    },
+    {
+      "id": "espada_corta_gemela",
+      "name": "Espada corta gemela",
+      "slot": "arma_izquierda",
+      "kind": "weapon",
+      "weight": 1.8,
+      "quality": 3,
+      "description": "Pensada para estilos de combate dual.",
+      "stat_modifiers": {
+        "fuerza": 1,
+        "destreza": 3,
+        "inteligencia": 0,
+        "puntos_vida": 0,
+        "estres": 1
+      },
+      "tags": [
+        "melee",
+        "slashing",
+        "weapon"
+      ],
+      "stackable": false,
+      "damage_dice": "1d6",
+      "damage_type": "slashing",
+      "range": 1,
+      "hands": 1,
+      "attack_stat": "destreza"
+    },
+    {
+      "id": "hoja_del_asesino",
+      "name": "Hoja del asesino",
+      "slot": "arma_izquierda",
+      "kind": "weapon",
+      "weight": 1.2,
+      "quality": 4,
+      "description": "Silenciosa, rápida y mortal.",
+      "stat_modifiers": {
+        "fuerza": 0,
+        "destreza": 4,
+        "inteligencia": 0,
+        "puntos_vida": 0,
+        "estres": -1
+      },
+      "tags": [
+        "melee",
+        "slashing",
+        "weapon"
+      ],
+      "stackable": false,
+      "damage_dice": "1d6",
+      "damage_type": "slashing",
+      "range": 1,
+      "hands": 1,
+      "attack_stat": "destreza"
+    }
+  ]
+}

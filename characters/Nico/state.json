@@ -1,0 +1,9 @@
+{
+  "location": "start_zone",
+  "hp_current": 30,
+  "mana_current": 0,
+  "time": {
+    "day": 1,
+    "hour": 0
+  }
+}

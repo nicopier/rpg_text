@@ -1,0 +1,19 @@
+{
+  "stats": {
+    "level": 3,
+    "fuerza": 5,
+    "destreza": 1,
+    "inteligencia": 1,
+    "puntos_vida": 1,
+    "estres": 0
+  },
+  "equipped": {
+    "casco": null,
+    "pecho": null,
+    "botas": null,
+    "arma_derecha": null,
+    "arma_izquierda": null,
+    "anillo_derecho": null,
+    "anillo_izquierdo": null
+  }
+}
